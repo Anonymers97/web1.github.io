@@ -1,0 +1,23 @@
+body {
+    background-image: url("djsona.jpg");
+    color: aqua;
+}
+
+p {
+    font-size: x-large;
+}
+
+#flimg {
+    float: inline-end;
+}
+
+#menu,
+ul,
+li {
+    display: inline-block;
+    color: ghostwhite;
+}
+
+li {
+    color: ghostwhite
+}

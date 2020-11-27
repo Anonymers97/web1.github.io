@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plaintes</title>
+</head>
+
+
+<body>
+    <link rel="stylesheet" href="plaintes.css">
+    <p>FORMULAIRE DE PLAINTES.</p>
+
+    <form action="plaintes.php" method="post">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" maxlength="40" style="font: inherit;">
+        <br>
+        <br>
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" maxlength="50" style="font: inherit;">
+        <br>
+        <br>
+        <label for="mail">Mail</label>
+        <input type="text" id="mail" name="mail" minlength="8" style="font: inherit;">
+        <br>
+        <br>
+        <label for="objet">Objet</label>
+        <input type="text" id="objet" name="object" minlength="5" style="font: inherit;">
+        <br>
+        <br>
+        <label for="plainte" style="color: red;">Veuillez ecrire votre plaintes ci-dessous</label>
+        <br>
+        <textarea id="description" name="description" rows="10" cols="70">
+    </textarea>
+        <br>
+        <br>
+        <input type="submit" value="Soumettre" style="font: inherit;">
+        <br><br>
+    </form>
+    <a href="principal.html" id="menu">Retour a la page principal</a>
+</body>

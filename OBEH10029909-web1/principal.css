@@ -1,0 +1,10 @@
+body {
+    background-image: url("Caligraphie.jpg");
+    color: navy;
+}
+
+h3,
+p,
+ul li {
+    font-size: xx-large;
+}

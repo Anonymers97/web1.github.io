@@ -1,0 +1,61 @@
+body {
+    background-image: url(colorshamz.jpg);
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: palegreen;
+}
+
+li h2 {
+    text-decoration: underline;
+    color: peachpuff;
+}
+
+ol {
+    color: rgb(255, 255, 255);
+}
+
+li {
+    color: rgb(0, 255, 255);
+    font-size: large;
+}
+
+table {
+    border: medium solid #000000;
+    width: 50%;
+}
+
+tr th {
+    border: thin solid #6495ed;
+    width: 50%;
+}
+
+tr td a {
+    color: peachpuff;
+}
+
+tr td {
+    border: thin solid #6495ed;
+}
+
+#tab {
+    text-align: center;
+}
+
+#tbvt {
+    color: palegreen;
+    font-size: large;
+}
+
+#tbart {
+    color: palegreen;
+    font-size: large;
+}
+
+caption {
+    color: white;
+    font-size: xx-large;
+    text-decoration: underline;
+}

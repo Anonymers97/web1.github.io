@@ -1,0 +1,10 @@
+body {
+    background-image: url("stromae-concert-merci.jpg");
+    background-color: black;
+}
+
+a,
+p {
+    color: whitesmoke;
+    font-size: x-large;
+}
